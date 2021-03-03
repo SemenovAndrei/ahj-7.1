@@ -1,0 +1,7 @@
+GET http://localhost:7777/tickets?method=allTickets HTTP/1.1
+
+###
+
+DELETE http://localhost:7777/notes/0 HTTP/1.1
+
+###
