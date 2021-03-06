@@ -4,7 +4,7 @@ const fetch = require('node-fetch')
 
 class AddTickets {
   constructor() {
-    this.url = 'http://localhost:7777/tickets?method=createTicket'
+    this.url = 'https://ahj-7-1.herokuapp.com/tickets?method=createTicket'
     this.tickets = [
       {
         name: 'сделать прототип API',
