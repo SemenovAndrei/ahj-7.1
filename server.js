@@ -60,7 +60,7 @@ router.delete('/tickets/:id', async (ctx, next) => {
   const ticketId = Number(ctx.params.id)
 
   tickets = tickets.filter((o) => o.id !== ticketId)
-  ticketsFull = tickets.filter((o) => o.id !== ticketId)
+  ticketsFull = ticketsFull.filter((o) => o.id !== ticketId)
   ctx.response.status = 204
 })
 
